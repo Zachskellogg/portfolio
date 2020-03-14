@@ -11,16 +11,37 @@ H5 {
 
 }
 
+text-center {
+    margin-left: 10px;
+}
 
-@media screen and (max-width: 768px) {
-    body {
-      background-color: #ffffff;
+section {
+    border-width: 5px;
+    background-color: lightgray;
+    background-image: 
+    width: 900px;
+    height: 600px;
+    margin: auto;
     }
-  
+
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: #ffffff;
+    }
+    
+    section {
+    border-width: 5px;
+    background-color: lightgray;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    }
     .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
+        border-style: solid;
+        border-width: 3px;
+        width: 100%;
+        padding: 20px;
     }
   
     #main-content,
@@ -61,7 +82,7 @@ H5 {
     }
   
     .wrapper {
-      /* Box-model */
+      
       width: 100%;
       padding: 20px;
     }
