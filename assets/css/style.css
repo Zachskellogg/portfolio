@@ -68,7 +68,13 @@ section {
     body {
       background-color: #ffffff;
     }
-  
+    section {
+      border-width: 5px;
+      background-color: lightgray;
+      width: 300px;
+      height: 190px;
+      margin: auto;
+      }
     .wrapper {
       width: 100%;
       padding: 20px;
