@@ -15,23 +15,6 @@ text-center {
     margin-left: 10px;
 }
 
-.social {
-                width: 36px;
-                height: 36px;
-                float: left;
-                display: inline-block;
-                border-radius: 5px;
-                color: #fff;
-                text-align: center;
-}
-section {
-    border-width: 5px;
-    background-color: lightgray;
-    background-image: 
-    width: 900px;
-    height: 600px;
-    margin: auto;
-    }
 
 
 @media screen and (max-width: 980px) {
@@ -39,7 +22,7 @@ section {
         background-color: #ffffff;
     }
     
-    section {
+    .section {
     border-width: 5px;
     background-color: lightgray;
     width: 800px;
@@ -62,19 +45,28 @@ section {
       margin-top: 40px;
     }
   }
+
+  .name {
+    margin-left: 20px;
+
+  }
+
+  .wrapper {
+    border: 5px;
+  }
+  .card {
+    border-radius: 10px;
+    box-shadow: blue, 0.7;
+    margin: 20px;
+  
+  }
   
   
   @media screen and (max-width: 320px) {
     body {
       background-color: #ffffff;
     }
-    section {
-      border-width: 5px;
-      background-color: lightgray;
-      width: 300px;
-      height: 190px;
-      margin: auto;
-      }
+  
     .wrapper {
       width: 100%;
       padding: 20px;
